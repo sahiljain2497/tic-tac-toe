@@ -3,6 +3,7 @@ $(document).ready(function(){
     var compturn="O";
     var arr=[];
     var count=0;
+#thses check turns \
 $('#turnX').click(function(){
     turn='X';
     compturn='O';
@@ -23,7 +24,7 @@ function reset(){
     arr=['#','#','#','#','#','#','#','#','#'];
     count=0;
 }    
-    
+#these starts the game
 function startGame(){
 function checkWin(move){
     console.log('entered');
